@@ -1,22 +1,27 @@
-# My nvim config
-![image](https://github.com/gedjerone/neovim/assets/85175067/ba31e1a0-f3e8-4524-aff8-f6e9a8a12fee)
+# neovim
 
-> [!NOTE]  
-> [Catppuccin theme](https://github.com/catppuccin)
+![image](https://github.com/gedjerone/neovim/assets/85175067/d7ff8af7-f183-4cf2-ad84-1071adf18cca)
 
-#### Language Server Providers
-| LSP | Languages |
-| --- | --- |
-| `volar` | Vue |
-| `lua_ls` | Lua |
-| `tsserver` | JavaScript, TypeScript |
-| `tailwindcss` | Tailwindcss |
-| `rescriptls` | Rescript |
-| `nim_langserver` | Nim |
-| `zig-ls` | Zig |
-| `html` | HMTL |
-| `vim-pug` | Pug syntax support |
-| `cssls` | Modern css frameworks support (less, scss, sass) |
-| `pylyzer` | Python |
-| `elixir-ls` | Elixir |
-| `vim-ls` | Vim language support |
+
+<a href="https://dotfyle.com/gedjerone/neovim"><img src="https://dotfyle.com/gedjerone/neovim/badges/plugins?style=flat" /></a>
+<a href="https://dotfyle.com/gedjerone/neovim"><img src="https://dotfyle.com/gedjerone/neovim/badges/leaderkey?style=flat" /></a>
+<a href="https://dotfyle.com/gedjerone/neovim"><img src="https://dotfyle.com/gedjerone/neovim/badges/plugin-manager?style=flat" /></a>
+
+
+## Install Instructions
+
+ > Install requires Neovim 0.9+. Always review the code before installing a configuration.
+
+Clone the repository and install the plugins:
+
+```sh
+git clone git@github.com:gedjerone/neovim ~/.config/gedjerone/neovim
+NVIM_APPNAME=gedjerone/neovim/ nvim --headless +"Lazy! sync" +qa
+```
+
+Open Neovim with this config:
+
+```sh
+NVIM_APPNAME=gedjerone/neovim/ nvim
+```
+
